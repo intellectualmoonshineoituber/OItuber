@@ -7,7 +7,8 @@
 ## What is OItuber? (OItuberとは？)
 
 OItuber (Organoid Intelligence YouTuber) is the next-generation evolution of VTubers. By combining cutting-edge biotechnology and artificial intelligence, we create a unique interactive experience.  Our project uses brain organoids and electrode arrays to realize AI-driven content and real-time interactions. 
- (OItuber（オルガノイド・インテリジェンス・ユーチューバー）は、VTuberの次世代進化形です。最先端のバイオテクノロジーと人工知能を組み合わせ、ユニークなインタラクティブ体験を生み出します。私たちのプロジェクトでは、脳オルガノイドと電極アレイを使用して、AI駆動のコンテンツとリアルタイムのやりとりを実現しています。)
+
+(OItuber（オルガノイド・インテリジェンス・ユーチューバー）は、VTuberの次世代進化形です。最先端のバイオテクノロジーと人工知能を組み合わせ、ユニークなインタラクティブ体験を生み出します。私たちのプロジェクトでは、脳オルガノイドと電極アレイを使用して、AI駆動のコンテンツとリアルタイムのやりとりを実現しています。)
 
 ## Current Implementation (現在の実装)
 
