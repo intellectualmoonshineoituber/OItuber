@@ -36,8 +36,8 @@ Our goal is to evolve the OItuber system into a more advanced and interactive ex
 ## Todo List (Todo リスト)
 
 - [x] Launch project website (プロジェクトサイトの公開)
-- [x] Implement Twitter integration (Twitterでの実装)
 - [x] Publish GitHub Pages (GitHub Pagesの公開)
+- [ ] Implement Twitter integration (Twitterでの実装)
 - [ ] Launch YouTube channel (YouTubeでの公開)
 - [ ] Build real-time response system (リアルタイムでの応答システムの構築)
 - [ ] Create and publish project whitepaper (プロジェクトWhitepaperの作成と公開)
