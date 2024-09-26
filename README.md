@@ -1,7 +1,7 @@
 # OItuber Project (OItuber プロジェクト)
 
-![OItuber Logo](/images/OItuber-logo.png)
-(Image is OItuber Neuro-Chan)
+![OItuber Logo](/Images/TetherImage.png)
+(Image is OItuber Neuro-Chan
 
 
 ## What is OItuber? (OItuberとは？)
@@ -10,16 +10,16 @@ OItuber (Organoid Intelligence YouTuber) is the next-generation evolution of VTu
 
 (OItuber（オルガノイド・インテリジェンス・ユーチューバー）は、VTuberの次世代進化形です。最先端のバイオテクノロジーと人工知能を組み合わせ、ユニークなインタラクティブ体験を生み出します。私たちのプロジェクトでは、脳オルガノイドと電極アレイを使用して、AI駆動のコンテンツとリアルタイムのやりとりを実現しています。)
 
-## Current Implementation (現在の実装)
+## System Overview(実装の概略)
 
-![OItuber System Diagram](/images/OItuber-system-diagram.png)
+![OItuber System Diagram](/Images/SystemImage.png)
 
 The current OItuber system operates in the following flow: (現在のOItuberシステムは以下のような流れで動作しています：)
 
 1. Acquire brain waves from brain organoids (脳オルガノイドからの脳波を取得)
 2. Process and modify the acquired brain wave data using LLM (Large Language Model) (取得した脳波データをLLM（大規模言語モデル）で処理・修正)
 3. Generate responses on the following platforms based on the processed data: (処理されたデータを基に、以下のプラットフォームで応答を生成)
-   - Twitter
+   - X (Twitter)
    - Discord
    - Instagram
    - YouTube
@@ -37,11 +37,12 @@ Our goal is to evolve the OItuber system into a more advanced and interactive ex
 
 - [x] Launch project website (プロジェクトサイトの公開)
 - [x] Publish GitHub Pages (GitHub Pagesの公開)
-- [ ] Implement Twitter integration (Twitterでの実装)
+- [ ] Implement X (Twitter) integration (X (Twitter)での実装)
+- [ ] Set up and manage Discord server (Discordサーバーの立ち上げと運営)
 - [ ] Launch YouTube channel (YouTubeでの公開)
 - [ ] Build real-time response system (リアルタイムでの応答システムの構築)
 - [ ] Create and publish project whitepaper (プロジェクトWhitepaperの作成と公開)
-- [ ] Set up and manage Discord server (Discordサーバーの立ち上げと運営)
+
 
 ## License (ライセンス)
 
