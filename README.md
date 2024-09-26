@@ -1,7 +1,7 @@
 # OItuber Project (OItuber プロジェクト)
 
 ![OItuber Logo](/Images/TetherImage.png)
-(Image is OItuber Neuro-Chan
+(Image is OItuber Neuro-Chan (画像はOItuberのネウロちゃんのイメージです))
 
 
 ## What is OItuber? (OItuberとは？)
