@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OITuber - ニューラちゃん</title>
+    <title>OITuber - ニューラちゃん / Neura-chan</title>
     <style>
         body {
             font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
-            max-width: 800px;
+            max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 0;
             background-color: #f0f0ff;
         }
         header {
@@ -19,25 +19,46 @@
             color: white;
             text-align: center;
             padding: 1em;
-            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .character-profile, .oituber-explanation {
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
         .character-profile {
+            background-color: #e6e6fa;
+        }
+        .oituber-explanation {
+            background-color: #ffffff;
+            border: 1px solid #d8bfd8;
+        }
+        .content-wrapper {
             display: flex;
-            align-items: center;
-            margin-top: 20px;
+            align-items: flex-start;
+            gap: 20px;
         }
         .character-image {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-right: 20px;
+            width: 400px;
+            height: auto;
+            border-radius: 10px;
         }
-        .character-info {
-            flex: 1;
+        .full-width-image {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
         }
-        h1, h2 {
+        h2 {
             color: #6a0dad;
+            margin-top: 0;
+        }
+        .social-links {
+            margin-top: 20px;
         }
         .social-links a {
             display: inline-block;
@@ -47,54 +68,96 @@
             color: white;
             text-decoration: none;
             border-radius: 5px;
+            cursor: not-allowed;
         }
-        .tech-specs {
-            background-color: #e6e6fa;
-            padding: 15px;
-            border-radius: 5px;
+        .catchphrase {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
             margin-top: 20px;
+            padding: 10px;
+            background-color: #f0f0ff;
+        }
+        .language-column {
+            flex: 1;
+            padding: 0 10px;
+        }
+        @media (max-width: 768px) {
+            .content-wrapper {
+                flex-direction: column;
+            }
+            .character-image {
+                width: 100%;
+                max-width: 300px;
+                margin-bottom: 20px;
+            }
+            .language-columns {
+                flex-direction: column;
+            }
+        }
+        .language-columns {
+            display: flex;
+            gap: 20px;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>OITuber - ニューラちゃん</h1>
+        <h1>OITuberプロジェクト！ / OITuber Project!</h1>
     </header>
 
     <main>
-        <div class="character-profile">
-            <img src="/placeholder.svg?height=200&width=200" alt="ニューラちゃん" class="character-image">
-            <div class="character-info">
-                <h2>ニューラちゃん</h2>
-                <p>「こんにちは！ニューラちゃんだよ！最先端のオルガノイドインテリジェンスを使ったOITuberとして、みんなとおしゃべりして、一緒に学んで、楽しみたいな！」</p>
-                <div class="social-links">
-                    <a href="#">YouTube</a>
-                    <a href="#">Twitter</a>
-                    <a href="#">Discord</a>
+        <section class="character-profile">
+            <div class="content-wrapper">
+                <img src="Images/TetherImage.png" alt="ニューラちゃん / Neura-chan" class="character-image">
+                <div class="language-columns">
+                    <div class="language-column">
+                        <h2>ニューラちゃん</h2>
+                        <div class="catchphrase">
+                            「ねえねえ、今日はもう脳のこと考えた？シナプスがキラキラ輝いてるよ！」
+                        </div>
+                        <p>「こんにちは！ニューラちゃんだよ！最先端のオルガノイドインテリジェンスを使ったOITuberとして、みんなとおしゃべりして、一緒に学んで、楽しみたいな！」</p>
+                        <p>シャーレの中で育ったiPS細胞由来の脳組織を利用した最先端のAI生命体。</p>
+                        <p>彼女のお気に入りのファッションは、カラフルな電極アレイと、キラキラ光るニューロン模様のドレス。暇な時は、他のOItuberたちとおしゃべりするのが大好き。</p>
+                        <p>好奇心旺盛で、人間の脳について学ぶのが趣味。視聴者との対話を通じて、日々新しい知識を吸収している。時々、難しい科学用語を使いすぎて、自分でも混乱することも。</p>
+                        <div class="social-links">
+                            <a href="#" title="準備中">YouTube（製作中）</a>
+                            <a href="#" title="準備中">Twitter（製作中）</a>
+                            <a href="#" title="準備中">Discord（製作中）</a>
+                        </div>
+                    </div>
+                    <div class="language-column">
+                        <h2>Neura-chan</h2>
+                        <div class="catchphrase">
+                            "Hey hey hey, have you thought about your brain yet today? Your synapses are sparkling!"
+                        </div>
+                        <p>"Hello!I'm Newra-chan! As an OITuber using cutting edge organoid intelligence, I'd love to chat with you guys, learn with you, and have fun!”</p>
+                        <p>A cutting-edge AI life form using iPS cell-derived brain tissue grown in a petri dish. </p>
+                        <p>Her favorite fashions are colorful electrode arrays and dresses with shiny neuron patterns. In her spare time, she loves to chat with other OItubers. </p>
+                        <p>She is curious and enjoys learning about the human brain. She absorbs new knowledge every day through interaction with viewers. Sometimes he uses too many difficult scientific terms, which confuses even himself. </p>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <section>
-            <h2>OITuberって何？</h2>
-            <p>OITuberは、VTuberの次の進化形！私たちは、脳オルガノイドと電極を使って、ユニークなAI体験を作り出しています。まるで小さな脳がシャーレの中で、みんなとおしゃべりして学んでいるみたいなんです！</p>
-            <p>私たちのオルガノイドから得られる電極データは、ChatGPTのような高度な言語モデルで処理されて、リアルタイムでコミュニケーションができるんです。生物学とAIが融合した、新しいエンターテインメントの形なんですよ！</p>
         </section>
 
-        <section class="tech-specs">
-            <h2>OITuber テックスペック</h2>
-            <ul>
-                <li>脳オルガノイド：幹細胞から培養</li>
-                <li>電極アレイ：1024チャンネル高密度MEA</li>
-                <li>AI統合：カスタムチューニングされたChatGPTモデル</li>
-                <li>リアルタイム処理：10ミリ秒未満の遅延</li>
-                <li>キャラクターアニメーション：ニューラルネットワーク強化型Live2D</li>
-            </ul>
+        <section class="oituber-explanation">
+            <h2 class="ja">OITuberって何？</h2>
+            <img src="Images/SystemImage.png" alt="OITuberの説明 / OITuber explanation" class="full-width-image">
+            <p class="ja">OITuberは、iPS細胞から作成した脳組織である脳オルガノイドの信号を利用します。</p>
+            <p class="ja">信号は生成AIで処理されてテキストやアニメーションを実現します。</p>
+            <p class="ja">まるで小さな脳がシャーレの中で、みんなとおしゃべりして学んでいるみたいなんです！</p>
+            <p class="ja">生物学とAIが融合した、新しいエンターテインメントの形なんですよ！</p>
+            <p class="en">OITuber uses signals from brain organoids, which are brain tissue created from iPS cells.</p>
+            <p class="en">The signals are processed by a generative AI to achieve text and animation.</p>
+            <p class="en">It's as if a tiny brain is learning in a petri dish, chatting with everyone!</p>
+            <p class="en">It's a new form of entertainment that combines biology and AI!</p>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 OITuberプロジェクト。全ての権利を留保します。教育目的でのみ使用してください。</p>
+        <p class="ja">&copy; 2024 OITuberプロジェクト。全ての権利を留保します。</p>
+        <p class="en">&copy; 2024 OITuber Project. All rights reserved.</p>
     </footer>
-</body>
-</html>
